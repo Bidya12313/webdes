@@ -12,7 +12,7 @@ body {
 }
 
 h1, h2 {
-    color: #2c3e50;
+    color: #636363;
 }
 
 .container {
@@ -121,4 +121,31 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+.awards h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #636363;
+}
+
+.awards table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.awards th, .awards td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.awards th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.awards td {
+    background-color: #fff;
 }
