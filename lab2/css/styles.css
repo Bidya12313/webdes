@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333333;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#main-content {
+    margin-top: 80px;
+    padding: 20px;
+}
+
+.info-box {
+    margin-bottom: 20px;
+}
+
+.float-img {
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+}
+
+.image-box {
+    position: relative; /* Add this to create a positioning context */
+  }
+  
+  .base-img {
+    width: 400px; /* Set the width of the base image */
+  }
+  
+  .overlay-img-1 {
+    position: absolute; /* Take the overlay images out of the normal flow */
+    top: 100px; /* Position the overlay images at the top of the container */
+    left: 100px; /* Position the overlay images at the left of the container */
+    width: 400px; /* Set the width of the overlay images */
+    z-index: 1; /* Ensure the overlay images are on top of the base image */
+  }
+
+    .overlay-img-2 {
+    position: absolute; /* Take the overlay images out of the normal flow */
+    top: 200px; /* Position the overlay images at the top of the container */
+    left: 200px; /* Position the overlay images at the left of the container */
+    width: 400px; /* Set the width of the overlay images */
+    z-index: 1; /* Ensure the overlay images are on top of the base image */
+    }
+
+.form-container {
+    background-color: #8482e0;
+    padding: 20px;
+    margin: 160px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button[type="reset"] {
+    background-color: #f44336;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-links img {
+    width: 100px;
+    margin: 0 0px;
+}
+
+/* Стилі для кнопки "Повернутися вгору" */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.scroll-to-top:hover {
+    background-color: #555;
+}

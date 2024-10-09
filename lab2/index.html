@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Def Leppard con</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="top">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#registration-form">Форма реєстрації</a></li>
+                <li><a href="#login-form">Форма входу</a></li>
+                <li><a href="#feedback-form">Форма зворотнього зв'язку</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="main-content">
+        <div class="info-box">
+            <p>Шановні фанати рок-музики!
+                <img src="img/img1.png" alt="img, яку обтікає текст" class="float-img">
+                Маємо для вас неймовірну новину! Легендарна рок-група Def Leppard повертається на сцену, і ви не можете цього пропустити! Приєднуйтесь до нас на унікальному концерті, який відбудеться 10 жовтня у Києві.
+                
+                Def Leppard — це не просто гурт, це еталон рок-н-ролу! Їхні хіти, такі як "Pour Some Sugar on Me", "Rock of Ages" та "Photograph", стали справжніми класиками, які знають та люблять мільйони слухачів по всьому світу.
+                
+                Цей концерт обіцяє бути незабутнім вечором, сповненим енергії, драйву та, звісно ж, найкращої музики! Приготуйтеся до вражаючого шоу з живим виконанням, запальними ритмами та атмосферою, що заряджає!
+                
+                Квитки вже в продажу! Не втрачайте шанс стати частиною цього грандіозного дійства.
+                
+                Поспішайте, адже кількість місць обмежена!
+                
+                Беріть своїх друзів, надягайте свої найкращі рок-атрибути і готуйтеся до нічного запаморочливого вечора з Def Leppard!
+                
+                З нетерпінням чекаємо на вас на концерті!</p>
+        </div>
+        <div class="info-box">
+            <p>Будь-які картинки, що повторюються</p>
+            <div class="image-box">
+              <img src="img/img2.jpg" alt="image1" class="base-img">
+              <img src="img/img2.jpg" alt="image2" class="overlay-img-1">
+              <img src="img/img2.jpg" alt="image3" class="overlay-img-2">
+            </div>
+          </div>
+    </section>
+
+    <section id="forms">
+        <div id="registration-form" class="form-container">
+            <h2>Форма реєстрації</h2>
+            <form>
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" name="name" placeholder="Ім'я" required>
+
+                <label for="surname">Прізвище:</label>
+                <input type="text" id="surname" name="surname" placeholder="Прізвище" required>
+
+                <label for="gender">Стать:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Чоловіча</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Жіноча</label>
+
+                <label for="age">Вік:</label>
+                <input type="number" id="age" name="age" min="0" value="21">
+
+                <label for="birthdate">Дата народження:</label>
+                <input type="date" id="birthdate" name="birthdate">
+
+                <label for="country">Країна проживання:</label>
+                <select id="country" name="country">
+                    <option value="">Оберіть країну</option>
+                    <option value="ukraine">Україна</option>
+                    <option value="usa">США</option>
+                </select>
+
+                <label for="phone">Номер телефону:</label>
+                <input type="tel" id="phone" name="phone" placeholder="+38(XXX)XXX-XX-XX">
+
+                <label for="social">Соцмережа:</label>
+                <input type="url" id="social" name="social" placeholder="Посилання на соц.мережу">
+
+                <label for="email">Ел. пошта:</label>
+                <input type="email" id="email" name="email" placeholder="Ел. пошта">
+
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" placeholder="Пароль">
+
+                <label>
+                    <input type="checkbox" name="terms"> Чи згідні ви з умовами?
+                </label>
+
+                <button type="submit">Зареєструватись</button>
+                <button type="reset">Відміна</button>
+            </form>
+        </div>
+
+        <div id="login-form" class="form-container">
+            <h2>Форма входу</h2>
+            <form>
+                <label for="login">Логін:</label>
+                <input type="text" id="login" name="login" placeholder="Логін" required>
+
+                <label for="password">Пароль:</label>
+                <input type="password" id="password" name="password" placeholder="Пароль" required>
+
+                <button type="submit">Вхід</button>
+            </form>
+        </div>
+
+        <div id="feedback-form" class="form-container">
+            <h2>Форма зворотнього зв'язку</h2>
+            <form>
+                <label for="feedback-name">Ім'я:</label>
+                <input type="text" id="feedback-name" name="feedback-name" placeholder="Ім'я" required>
+
+                <label for="feedback-email">Ел. пошта:</label>
+                <input type="email" id="feedback-email" name="feedback-email" placeholder="Ел. пошта" required>
+
+                <label for="subject">Тема повідомлення:</label>
+                <select id="subject" name="subject">
+                    <option value="">Оберіть тему</option>
+                    <option value="question">Питання</option>
+                    <option value="feedback">Відгук</option>
+                </select>
+
+                <label for="message">Повідомлення:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Ваше повідомлення"></textarea>
+
+                <button type="submit">Відправити</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <p>Посилання на соц. мережі:</p>
+            <a href="#">Telegram</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <a href="#top" id="scrollToTopBtn" class="scroll-to-top">
+        ⬆️
+    </a>
+</body>
+</html>
