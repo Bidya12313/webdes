@@ -12,11 +12,12 @@ body {
 
 header {
     position: sticky;
-    top: 0;
+    top: 0; /* Вказуємо, що при прокручуванні шапка прилипне до верхньої частини екрана */
+    margin-top: 200px;
     width: 100%;
     background-color: #333;
-    color: #fff;
     padding: 10px 0;
+    z-index: 2; /* Забезпечуємо, що шапка буде зверху всіх інших елементів */
 }
 
 nav ul {
@@ -36,50 +37,58 @@ nav ul li a {
 }
 
 #main-content {
-    margin-top: 80px;
+    margin-top: 0px;
     padding: 20px;
 }
 
-.info-box {
-    margin-bottom: 20px;
-}
-
-.float-img {
+.float-img-1 {
     float: left;
     margin-right: 10px;
     width: 100px;
 }
 
+.float-img-2 {
+    float: right;
+    margin-right: 10px;
+    width: 100px;
+}
+
+.float-img-3 {
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+}
+
 .image-box {
     position: relative; /* Add this to create a positioning context */
+    margin-left: 20%;
   }
   
   .base-img {
-    width: 400px; /* Set the width of the base image */
+    width: 200px; /* Set the width of the base image */
   }
   
   .overlay-img-1 {
     position: absolute; /* Take the overlay images out of the normal flow */
-    top: 100px; /* Position the overlay images at the top of the container */
-    left: 100px; /* Position the overlay images at the left of the container */
-    width: 400px; /* Set the width of the overlay images */
-    z-index: 1; /* Ensure the overlay images are on top of the base image */
+    top: 50px; /* Position the overlay images at the top of the container */
+    left: 50px; /* Position the overlay images at the left of the container */
+    width: 200px; /* Set the width of the overlay images */
   }
 
     .overlay-img-2 {
     position: absolute; /* Take the overlay images out of the normal flow */
-    top: 200px; /* Position the overlay images at the top of the container */
-    left: 200px; /* Position the overlay images at the left of the container */
-    width: 400px; /* Set the width of the overlay images */
-    z-index: 1; /* Ensure the overlay images are on top of the base image */
+    top: 100px; /* Position the overlay images at the top of the container */
+    left: 100px; /* Position the overlay images at the left of the container */
+    width: 200px; /* Set the width of the overlay images */
     }
 
 .form-container {
     background-color: #8482e0;
     padding: 20px;
-    margin: 160px 0;
+    margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 10px;
+    
 }
 
 form label {
