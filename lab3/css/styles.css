@@ -1,0 +1,472 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  align-self: center;
+}
+
+section {
+  margin: 50px;
+}
+
+button, .reverse-button {
+  cursor: pointer;
+  font-family: "Quicksand", sans-serif;
+  background: none;
+  color: #377DFF;
+  border-radius: 24px;
+  border-color: #377DFF;
+  width: 185px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 16px;
+}
+button:hover, .reverse-button:hover {
+  background-color: #377DFF;
+  color: white;
+}
+
+.reverse-button {
+  background-color: #377DFF;
+  color: white;
+}
+.reverse-button:hover {
+  background-color: white;
+  color: #377DFF;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  margin: 10px;
+  display: flex;
+}
+nav .nav-left, nav .nav-center, nav .nav-right {
+  flex: 1;
+  text-align: left;
+}
+nav .nav-left img, nav .nav-left #section_home button, #section_home nav .nav-left button, nav .nav-left #section_home .reverse-button, #section_home nav .nav-left .reverse-button, nav .nav-left #section_home .sub-text, #section_home nav .nav-left .sub-text, nav .nav-left #section_home h1, #section_home nav .nav-left h1, nav .nav-center img, nav .nav-center #section_home button, #section_home nav .nav-center button, nav .nav-center #section_home .reverse-button, #section_home nav .nav-center .reverse-button, nav .nav-center #section_home .sub-text, #section_home nav .nav-center .sub-text, nav .nav-center #section_home h1, #section_home nav .nav-center h1, nav .nav-right img, nav .nav-right #section_home button, #section_home nav .nav-right button, nav .nav-right #section_home .reverse-button, #section_home nav .nav-right .reverse-button, nav .nav-right #section_home .sub-text, #section_home nav .nav-right .sub-text, nav .nav-right #section_home h1, #section_home nav .nav-right h1 {
+  float: left;
+  margin-right: 10px;
+}
+nav .nav-left .text-wrapper, nav .nav-center .text-wrapper, nav .nav-right .text-wrapper {
+  margin-left: 10px;
+}
+nav .nav-left .text-wrapper span, nav .nav-center .text-wrapper span, nav .nav-right .text-wrapper span {
+  display: block;
+}
+nav .nav-right {
+  text-align: right;
+}
+nav .nav-center {
+  text-align: center;
+}
+nav .nav-center ul {
+  list-style-type: none;
+}
+nav .nav-center ul li {
+  display: inline;
+}
+nav .nav-center ul li:not(:last-child) {
+  margin-right: 50px;
+}
+nav .nav-center ul li a {
+  text-decoration: none;
+  color: black;
+}
+nav .nav-center ul li a[href="#hero"]:target {
+  font-weight: bold;
+}
+nav #burger-menu-btn {
+  visibility: hidden;
+}
+@media (max-width: 1024px) {
+  nav #burger-menu-btn {
+    visibility: visible;
+  }
+  nav .nav-center, nav .white-btn {
+    display: none;
+  }
+}
+
+hr {
+  border: 1px;
+}
+
+#section_home {
+  display: grid;
+  gap: 0;
+  grid-template-columns: minmax(200px, 1fr) minmax(100px, 4fr) 1fr;
+  grid-template-rows: repeat(4, minmax(75px, 1fr));
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  text-align: center;
+  place-items: center;
+}
+#section_home img, #section_home button, #section_home .reverse-button, #section_home .sub-text, #section_home h1 {
+  grid-column: 2;
+}
+#section_home h1 {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 64px;
+  margin: 0px;
+}
+#section_home .sub-text {
+  color: #464646;
+}
+#section_home .sub-text p {
+  margin: 0;
+}
+#section_home button, #section_home .reverse-button {
+  margin-bottom: 50px;
+}
+
+h3 {
+  color: #377DFF;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 5px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 55px;
+  font-family: "Nunito", sans-serif;
+}
+
+#section_team {
+  place-items: center;
+}
+#section_team .for-grid {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: repeat(3, 1fr);
+}
+#section_team .for-grid #team-photo {
+  grid-row: span 3;
+  margin-right: 30px;
+}
+#section_team .for-grid p {
+  margin-left: 50px;
+  grid-column: 2;
+  color: #464646;
+  font-weight: 400;
+  font-size: 24px;
+  word-spacing: 5px;
+}
+#section_team .for-grid #btn-grid {
+  margin-left: 50px;
+}
+#section_team .for-grid #btn-grid button #for-btn, #section_team .for-grid #btn-grid .reverse-button #for-btn {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  #section_team .for-grid {
+    margin: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, minmax(10px, 1fr));
+    place-items: center;
+  }
+  #section_team .for-grid p {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  #section_team .for-grid #btn-grid {
+    margin: 0;
+    grid-row: 2;
+    grid-column: 1;
+    justify-items: stretch;
+  }
+  #section_team .for-grid img, #section_team .for-grid #section_home h1, #section_home #section_team .for-grid h1, #section_team .for-grid #section_home .sub-text, #section_home #section_team .for-grid .sub-text, #section_team .for-grid #section_home button, #section_home #section_team .for-grid button, #section_team .for-grid #section_home .reverse-button, #section_home #section_team .for-grid .reverse-button {
+    grid-row: 3/span 2;
+    grid-column: 1;
+  }
+}
+
+#section_services {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#section_services #col-1 {
+  align-self: center;
+  margin: 40px;
+  grid-column: 1;
+}
+#section_services #col-1 h2 {
+  margin: 0;
+}
+#section_services #col-1 #read-more {
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-right: 20px;
+}
+#section_services #col-2 {
+  grid-column: 2;
+  display: grid;
+  margin: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+#section_services #col-2 .card {
+  margin-top: 10px;
+  display: flex;
+  width: 262px;
+  height: 269px;
+  border-color: black;
+  border: 5px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 24px;
+}
+#section_services #col-2 .card img, #section_services #col-2 .card #section_home h1, #section_home #section_services #col-2 .card h1, #section_services #col-2 .card #section_home .sub-text, #section_home #section_services #col-2 .card .sub-text, #section_services #col-2 .card #section_home button, #section_home #section_services #col-2 .card button, #section_services #col-2 .card #section_home .reverse-button, #section_home #section_services #col-2 .card .reverse-button {
+  margin: 20px;
+}
+
+@media (max-width: 1024px) {
+  #section_services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #section_services #col-1 {
+    grid-column: auto; /* Забезпечує, що текст розташований зверху */
+    text-align: center; /* Центрує текст */
+  }
+
+  #section_services #col-2 {
+    display: flex;
+    flex-direction: column; /* Розташовує картинки в колонку */
+    align-items: center; /* Центрує картинки */
+    gap: 20px; /* Додає відступи між картинками */
+  }
+
+  #section_services #col-2 .card {
+    width: 100%; /* Адаптація ширини карток для мобільних екранів */
+    max-width: 300px; /* Максимальна ширина картки */
+  }
+}
+
+#section-portfolio {
+  align-self: center;
+  text-align: center;
+}
+#section-portfolio #photo-grid {
+  margin: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+#section-portfolio #photo-grid .for-photo-grid {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#section-portfolio #photo-grid .for-photo-grid .test-photo-grid {
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+  font-weight: 700;
+  font-size: 24px;
+}
+@media screen and (max-width: 1024px) {
+  #section-portfolio #photo-grid {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+  }
+  #section-portfolio #photo-grid .for-photo-grid .test-photo-grid {
+    position: absolute;
+    bottom: 10%;
+    left: 30%;
+    font-weight: 700;
+    font-size: 24px;
+  }
+}
+
+#section-testimonail {
+  text-align: center;
+}
+#section-testimonail #test-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+#section-testimonail #test-grid .card {
+  width: 380px;
+  height: 335px;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+#section-testimonail #test-grid .card .header {
+  margin: 40px;
+  grid-row: 1;
+  display: flex;
+  text-align: left;
+}
+#section-testimonail #test-grid .card .header img, #section-testimonail #test-grid .card .header #section_home h1, #section_home #section-testimonail #test-grid .card .header h1, #section-testimonail #test-grid .card .header #section_home .sub-text, #section_home #section-testimonail #test-grid .card .header .sub-text, #section-testimonail #test-grid .card .header #section_home button, #section_home #section-testimonail #test-grid .card .header button, #section-testimonail #test-grid .card .header #section_home .reverse-button, #section_home #section-testimonail #test-grid .card .header .reverse-button {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+#section-testimonail #test-grid .card .header .text-wrapper {
+  margin-left: 10px;
+}
+#section-testimonail #test-grid .card .header .text-wrapper span {
+  display: block;
+  color: #464646;
+  font-weight: 400;
+  font-size: 11px;
+}
+#section-testimonail #test-grid .card .header .text-wrapper .name {
+  font-weight: 600;
+  font-size: 20px;
+  color: #377DFF;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+#section-testimonail #test-grid .card .main-text {
+  color: #464646;
+  vertical-align: top;
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+@media (max-width: 1024px) {
+  #section-testimonail #test-grid .card {
+    width: 100%;
+    grid-column: 2;
+  }
+  #section-testimonail #test-grid .no-small-screen {
+    display: none;
+  }
+}
+
+#section-invite .for-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#section-invite .for-grid .col-1 {
+  grid-column: 1;
+  margin: 50px;
+}
+#section-invite .for-grid .col-1 h2 {
+  margin: 0;
+}
+#section-invite .for-grid .col-2 {
+  grid-column: 2;
+  position: relative;
+}
+#section-invite .for-grid .col-2 #img-1 {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  z-index: 10;
+}
+#section-invite .for-grid .col-2 #img-2 {
+  position: absolute;
+  top: 10%;
+  right: 6%;
+  z-index: -1;
+}
+
+footer {
+  background-color: #383638;
+  margin: 0;
+}
+footer #footer-grid {
+  margin: 50px;
+  padding: 50px;
+  margin-right: 0;
+  margin-bottom: 0;
+  display: grid;
+  grid-template-rows: 4fr 1fr;
+  color: white;
+}
+footer #footer-grid #grid-helper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+footer #footer-grid #for-logo {
+  color: black;
+  display: flex;
+  background-color: white;
+  width: 180px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 60px 0 0 0;
+}
+footer #footer-grid #for-logo img, footer #footer-grid #for-logo #section_home h1, #section_home footer #footer-grid #for-logo h1, footer #footer-grid #for-logo #section_home .sub-text, #section_home footer #footer-grid #for-logo .sub-text, footer #footer-grid #for-logo #section_home button, #section_home footer #footer-grid #for-logo button, footer #footer-grid #for-logo #section_home .reverse-button, #section_home footer #footer-grid #for-logo .reverse-button {
+  height: 50px;
+}
+footer #footer-grid #for-logo .text-wrapper {
+  margin-left: 10px;
+}
+footer #footer-grid #for-logo .text-wrapper span {
+  display: block;
+}
+footer #footer-grid .unite-text {
+  font-weight: 300;
+}
+footer #footer-grid .unite-text .bold-txt {
+  font-size: 22px;
+  margin-top: 60px;
+  font-weight: 700;
+}
+footer #footer-grid .unite-text ul {
+  list-style: none;
+  padding-inline-start: 0;
+  font-size: 18px;
+}
+footer #footer-grid .unite-text ul li {
+  margin-top: 20px;
+}
+footer #footer-grid #ending {
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer #footer-grid #ending img, footer #footer-grid #ending #section_home h1, #section_home footer #footer-grid #ending h1, footer #footer-grid #ending #section_home .sub-text, #section_home footer #footer-grid #ending .sub-text, footer #footer-grid #ending #section_home button, #section_home footer #footer-grid #ending button, footer #footer-grid #ending #section_home .reverse-button, #section_home footer #footer-grid #ending .reverse-button {
+  margin-left: 20px;
+  height: 40px;
+  width: 40px;
+}
+footer #footer-grid #ending hr {
+  background-color: white;
+  height: 1px;
+  width: 500px;
+  z-index: 100;
+  margin: 10px;
+}
+@media (max-width: 1024px) {
+  footer #footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer #footer-grid #grid-helper {
+    display: block;
+  }
+  footer #ending {
+    grid-row: 2; 
+    grid-column: span 2;
+    margin: 0;
+  }
+  footer #ending img, footer #ending #section_home h1, #section_home footer #ending h1, footer #ending #section_home .sub-text, #section_home footer #ending .sub-text, footer #ending #section_home button, #section_home footer #ending button, footer #ending #section_home .reverse-button, #section_home footer #ending .reverse-button {
+    margin-left: 10px;
+  }
+}
+
