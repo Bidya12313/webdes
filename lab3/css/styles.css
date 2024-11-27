@@ -3,6 +3,8 @@ body {
   margin: 0;
   overflow-x: hidden;
   align-self: center;
+  background-color: #121212; /* Темний фон */
+  color: #ffffff; /* Білий текст */
 }
 
 section {
