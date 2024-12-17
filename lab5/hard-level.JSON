@@ -1,0 +1,198 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Match the HTML element with its description.",
+      "type": "drag-and-drop",
+      "pairs": {
+        "paragraph": "Defines a paragraph",
+        "header": "Defines headers of different levels",
+        "link": "Defines a hyperlink",
+        "list": "Defines an unordered list"
+      }
+    },
+    {
+      "id": 2,
+      "question": "Which of these are valid HTML attributes?",
+      "type": "checkbox",
+      "options": [
+        "id",
+        "class",
+        "type",
+        "color"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "id": 3,
+      "question": "What is the correct syntax for defining a class in HTML?",
+      "type": "text",
+      "placeholder": "Write your answer here...",
+      "correct": ["class='value'"]
+    },
+    {
+      "id": 4,
+      "question": "Which word is used to link an external CSS stylesheet in HTML?",
+      "type": "dropdown",
+      "options": ["link", "style", "script", "css"],
+      "correct": [0]
+    },
+    {
+      "id": 5,
+      "question": "Match the HTML form element with its description.",
+      "type": "drag-and-drop",
+      "pairs": {
+        "input": "Defines an input field",
+        "button": "Defines a clickable button",
+        "select": "Defines a dropdown list",
+        "textarea": "Defines a multiline text input"
+      }
+    },
+    {
+      "id": 6,
+      "question": "Which of these are valid HTML input types?",
+      "type": "checkbox",
+      "options": [
+        "text",
+        "password",
+        "checkbox",
+        "color"
+      ],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 7,
+      "question": "What is the correct syntax for defining a hyperlink in HTML?",
+      "type": "text",
+      "placeholder": "Write your answer here...",
+      "correct": ["<a href='url'>Link text</a>"]
+    },
+    {
+      "id": 8,
+      "question": "Which word is used to define a section of navigation links in HTML?",
+      "type": "dropdown",
+      "options": ["nav", "section", "header", "footer"],
+      "correct": [0]
+    },
+    {
+      "id": 9,
+      "question": "Match the HTML attribute with its function.",
+      "type": "drag-and-drop",
+      "pairs": {
+        "src": "Defines the source of an image",
+        "href": "Defines the destination of a hyperlink",
+        "alt": "Provides alternative text for an image",
+        "title": "Provides additional information about an element"
+      }
+    },
+    {
+      "id": 10,
+      "question": "Which of these are valid HTML5 elements?",
+      "type": "checkbox",
+      "options": [
+        "article",
+        "section",
+        "footer",
+        "header"
+      ],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 11,
+      "question": "Match the HTML element with its purpose.",
+      "type": "drag-and-drop",
+      "pairs": {
+        "article": "Defines an independent section of content",
+        "aside": "Defines content aside from the page content",
+        "main": "Defines the main content of a document",
+        "footer": "Defines the footer section of a document"
+      }
+    },
+    {
+      "id": 12,
+      "question": "Which of these are valid HTML5 form elements?",
+      "type": "checkbox",
+      "options": [
+        "input",
+        "select",
+        "textarea",
+        "button"
+      ],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 13,
+      "question": "What is the output of the HTML code: `<a href='https://example.com'>Click Here</a>`?",
+      "type": "text",
+      "placeholder": "Write your answer here...",
+      "correct": ["A clickable link with text 'Click Here' that goes to https://example.com"]
+    },
+    {
+      "id": 14,
+      "question": "Which word is used to define the largest heading in HTML?",
+      "type": "dropdown",
+      "options": ["h1", "h2", "h3", "h4"],
+      "correct": [0]
+    },
+    {
+      "id": 15,
+      "question": "Match the HTML tag with its function.",
+      "type": "drag-and-drop",
+      "pairs": {
+        "b": "Bold text",
+        "i": "Italic text",
+        "u": "Underlined text",
+        "s": "Strikethrough text"
+      }
+    },
+    {
+      "id": 16,
+      "question": "Which of these are valid HTML input attributes?",
+      "type": "checkbox",
+      "options": [
+        "placeholder",
+        "value",
+        "disabled",
+        "required"
+      ],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 17,
+      "question": "What is the output of the HTML code: `<img src='image.jpg' alt='Example image' />`?",
+      "type": "text",
+      "placeholder": "Write your answer here...",
+      "correct": ["Displays the image from image.jpg with 'Example image' as alternative text."]
+    },
+    {
+      "id": 18,
+      "question": "Which word is used to define a container for a navigation menu in HTML?",
+      "type": "dropdown",
+      "options": ["nav", "menu", "links", "bar"],
+      "correct": [0]
+    },
+    {
+      "id": 19,
+      "question": "Match the HTML input type with its description.",
+      "type": "drag-and-drop",
+      "pairs": {
+        "text": "Defines a single-line text input",
+        "password": "Defines a password input",
+        "radio": "Defines a radio button",
+        "checkbox": "Defines a checkbox input"
+      }
+    },
+    {
+      "id": 20,
+      "question": "Which of these are valid HTML5 video attributes?",
+      "type": "checkbox",
+      "options": [
+        "autoplay",
+        "controls",
+        "loop",
+        "poster"
+      ],
+      "correct": [0, 1, 2, 3]
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Світло-сірий фон для загального вигляду */
+}
+
+header {
+    background: #4f4b5a; /* Теплий темно-сірий фон */
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+main {
+    padding: 30px;
+}
+
+.question {
+    margin: 20px 0;
+}
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 600px;
+    margin: 0 auto;
+    border: 3px solid #8e7cc3; /* Лавандовий відтінок для меж */
+    border-radius: 16px;
+    padding: 28px;
+    background-color: #b8a9c9; /* Лавандово-сірий фон */
+}
+
+#welcome-section label {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#welcome-section input {
+    width: 80%;
+    margin: 0 auto;
+    height: 45px;
+    border: 2px solid #8e7cc3; /* Лавандовий бордер */
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 18px;
+    transition: border-color 0.3s ease;
+}
+
+#welcome-section input:focus {
+    border-color: #5f3a6a; /* Трохи темніший бордер при фокусуванні */
+    outline: none;
+}
+
+#welcome-section button {
+    width: 220px;
+    margin: 0px auto;
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #5f3a6a; /* Темний винний фон */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+#welcome-section button:hover {
+    background-color: #402236; /* Темніший винний колір при hover */
+}
+
+#test-section {
+    width: 65%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    border: 2px solid #8e7cc3;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#level-section {
+    text-align: center;
+    width: 420px;
+    margin: 0 auto;
+    padding: 24px;
+    padding-bottom: 48px;
+    background-color: #5e4b57; /* Теплий темний фон */
+    border-radius: 20px;
+}
+
+.drag-drop-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.drag-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.drag-item {
+    padding: 12px 18px;
+    border: 2px solid #a0c4ff; /* Світло-блакитний бордер */
+    border-radius: 8px;
+    background-color: #e1f5fe; /* Світло-блакитний фон */
+    cursor: grab;
+    text-align: center;
+    min-width: 110px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.drag-item:hover {
+    background-color: #bbdefb; /* Легкий блакитний на hover */
+}
+
+.drag-item:active {
+    cursor: grabbing;
+    background-color: #90caf9; /* Блакитний при активному стані */
+}
+
+.drop-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    align-items: center;
+    min-height: 60px;
+}
+
+.drop-item {
+    padding: 10px;
+    border: 2px dashed #a0c4ff; /* Блакитний бордер */
+    border-radius: 8px;
+    background-color: #ffffff;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.drop-row {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+}
+
+.question {
+    margin: 20px 0;
+    padding: 25px;
+    background-color: #f3e5f5; /* Світло-фіолетовий фон */
+    border-radius: 16px;
+    border: 2px solid #9c4d7f; /* Фіолетовий бордер */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#test-section h2 {
+    margin-bottom: 25px;
+    color: #2f2f2f; /* Темний колір тексту для заголовків */
+}
+
+input[type="text"],
+select {
+    width: 80%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #9c4d7f; /* Фіолетовий колір на фокус */
+    outline: none;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 12px;
+}
+
+button:hover {
+    background-color: #402236;
+    color: white;
+}
+
+#results-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #f3e5f5; /* Світло-фіолетовий фон */
+    font-size: 26px;
+    color: #2f2f2f;
+}

@@ -1,0 +1,152 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of these are HTML elements?",
+      "type": "checkbox",
+      "options": ["Block-level element", "Inline element", "Section element", "Header element"],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 2,
+      "question": "What is the correct syntax for creating a hyperlink in HTML?",
+      "type": "radio",
+      "options": ["Using anchor element with href attribute", "Using link element with href attribute", "Using anchor element with src attribute", "Using link element with rel attribute"],
+      "correct": [0]
+    },
+    {
+      "id": 3,
+      "question": "Which element is used to define a paragraph in HTML?",
+      "type": "radio",
+      "options": ["Paragraph element", "Paragraph tag", "Text element", "Text block element"],
+      "correct": [0]
+    },
+    {
+      "id": 4,
+      "question": "Which of these elements are used to define a list in HTML?",
+      "type": "checkbox",
+      "options": ["Unordered list element", "Ordered list element", "List item element", "List element"],
+      "correct": [0, 1, 2]
+    },
+    {
+      "id": 5,
+      "question": "What element is used to display an image in HTML?",
+      "type": "radio",
+      "options": ["Image element", "Image tag", "Source element", "Picture element"],
+      "correct": [0]
+    },
+    {
+      "id": 6,
+      "question": "What element is used to define the title of a webpage in HTML?",
+      "type": "radio",
+      "options": ["Title element", "Head element", "Meta element", "Header element"],
+      "correct": [0]
+    },
+    {
+      "id": 7,
+      "question": "Which of these elements can be used to create a form in HTML?",
+      "type": "checkbox",
+      "options": ["Form element", "Input element", "Select element", "Button element"],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 8,
+      "question": "What is the correct syntax for creating a table in HTML?",
+      "type": "radio",
+      "options": ["Using table element with row and data cell elements", "Using table element with row and column elements", "Using table with body, row, and cell elements", "Using table with row and column block elements"],
+      "correct": [0]
+    },
+    {
+      "id": 9,
+      "question": "Which element is used to define a blockquote in HTML?",
+      "type": "radio",
+      "options": ["Blockquote element", "Quote element", "Q element", "Paragraph element"],
+      "correct": [0]
+    },
+    {
+      "id": 10,
+      "question": "Match the HTML element with its description.",
+      "type": "drag-and-drop",
+      "pairs": {
+        "Paragraph element": "Defines a paragraph",
+        "Header elements (h1 to h6)": "Defines headers of different levels",
+        "Anchor element": "Defines a hyperlink",
+        "Unordered list element": "Defines an unordered list"
+      }
+    },
+    {
+      "id": 11,
+      "question": "Which of these elements are used for grouping content in HTML?",
+      "type": "checkbox",
+      "options": ["Div element", "Section element", "Article element", "Span element"],
+      "correct": [0, 1, 2]
+    },
+    {
+      "id": 12,
+      "question": "What is the correct syntax for embedding a video in HTML?",
+      "type": "radio",
+      "options": ["Using video element with src attribute", "Using media element with src attribute", "Using embed element with src attribute", "Using video element with file attribute"],
+      "correct": [0]
+    },
+    {
+      "id": 13,
+      "question": "Which element is used to define an ordered list in HTML?",
+      "type": "radio",
+      "options": ["Ordered list element", "Unordered list element", "List item element", "List element"],
+      "correct": [0]
+    },
+    {
+      "id": 14,
+      "question": "What element is used to define the header of a webpage in HTML?",
+      "type": "radio",
+      "options": ["Header element", "Head element", "Body element", "Navigation element"],
+      "correct": [0]
+    },
+    {
+      "id": 15,
+      "question": "Which element is used to create a line break in HTML?",
+      "type": "radio",
+      "options": ["Line break element", "Break element", "Line break tag", "Horizontal rule element"],
+      "correct": [0]
+    },
+    {
+      "id": 16,
+      "question": "What element is used to define a link to an external stylesheet in HTML?",
+      "type": "radio",
+      "options": ["Link element with rel and href attributes", "Style element with src attribute", "Stylesheet element with href attribute", "CSS link element with file attribute"],
+      "correct": [0]
+    },
+    {
+      "id": 17,
+      "question": "Which element is used to define a footer in HTML?",
+      "type": "radio",
+      "options": ["Footer element", "Foot element", "End element", "Footer section element"],
+      "correct": [0]
+    },
+    {
+      "id": 18,
+      "question": "Which of these are valid inline elements in HTML?",
+      "type": "checkbox",
+      "options": ["Span element", "Anchor element", "Strong element", "Div element"],
+      "correct": [0, 1, 2]
+    },
+    {
+      "id": 19,
+      "question": "Which of these elements are used to define forms in HTML?",
+      "type": "checkbox",
+      "options": ["Form element", "Input element", "Textarea element", "Button element"],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "id": 20,
+      "question": "Match the HTML element with its description.",
+      "type": "drag-and-drop",
+      "pairs": {
+        "Form element": "Defines an HTML form",
+        "Input element": "Defines an input field",
+        "Textarea element": "Defines a multi-line input field",
+        "Button element": "Defines a clickable button"
+      }
+    }
+  ]
+}

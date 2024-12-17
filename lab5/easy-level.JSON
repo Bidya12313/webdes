@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does HTML stand for?",
+      "type": "radio",
+      "options": [
+        "Hyper Text Markup Language",
+        "High Text Machine Language",
+        "Hyperloop Machine Language",
+        "Hyper Text Markdown Language"
+      ],
+      "correct": [0]
+    },
+    {
+      "id": 2,
+      "question": "Which word is used to define the main heading of a webpage?",
+      "type": "radio",
+      "options": [
+        "head",
+        "h1",
+        "header",
+        "title"
+      ],
+      "correct": [1]
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of the 'a' tag in HTML?",
+      "type": "radio",
+      "options": [
+        "To create a list",
+        "To embed an image",
+        "To create a hyperlink",
+        "To define a paragraph"
+      ],
+      "correct": [2]
+    },
+    {
+      "id": 4,
+      "question": "Which word is used to display an image?",
+      "type": "radio",
+      "options": [
+        "img",
+        "image",
+        "picture",
+        "src"
+      ],
+      "correct": [0]
+    },
+    {
+      "id": 5,
+      "question": "Which attribute specifies an alternative text for an image?",
+      "type": "radio",
+      "options": [
+        "src",
+        "alt",
+        "title",
+        "href"
+      ],
+      "correct": [1]
+    },
+    {
+      "id": 6,
+      "question": "What is the correct HTML word for creating a line break?",
+      "type": "radio",
+      "options": [
+        "lb",
+        "br",
+        "break",
+        "hr"
+      ],
+      "correct": [1]
+    },
+    {
+      "id": 7,
+      "question": "Which word is used to create a table row?",
+      "type": "radio",
+      "options": [
+        "td",
+        "tr",
+        "th",
+        "table"
+      ],
+      "correct": [1]
+    },
+    {
+      "id": 8,
+      "question": "Which word is used to create a form in HTML?",
+      "type": "radio",
+      "options": [
+        "form",
+        "input",
+        "fieldset",
+        "button"
+      ],
+      "correct": [0]
+    },
+    {
+      "id": 9,
+      "question": "Which word is used to define an unordered list?",
+      "type": "radio",
+      "options": [
+        "ul",
+        "ol",
+        "li",
+        "list"
+      ],
+      "correct": [0]
+    },
+    {
+      "id": 10,
+      "question": "Which attribute is used to specify the URL in the 'a' tag?",
+      "type": "radio",
+      "options": [
+        "src",
+        "href",
+        "link",
+        "url"
+      ],
+      "correct": [1]
+    },
+    {
+      "id": 11,
+      "question": "Which word is used to define a division or a container in HTML?",
+      "type": "radio",
+      "options": [
+        "div",
+        "span",
+        "section",
+        "container"
+      ],
+      "correct": [0]
+    },
+    {
+      "id": 12,
+      "question": "Which word is used for creating a numbered list?",
+      "type": "radio",
+      "options": [
+        "ul",
+        "ol",
+        "li",
+        "dl"
+      ],
+      "correct": [1]
+    },
+    {
+      "id": 13,
+      "question": "What is the default alignment of text in an HTML paragraph?",
+      "type": "radio",
+      "options": [
+        "Center",
+        "Left",
+        "Right",
+        "Justify"
+      ],
+      "correct": [1]
+    },
+    {
+      "id": 14,
+      "question": "What does the 'title' tag define in HTML?",
+      "type": "radio",
+      "options": [
+        "The page content",
+        "The page footer",
+        "The page title shown in the browser tab",
+        "The main heading"
+      ],
+      "correct": [2]
+    },
+    {
+      "id": 15,
+      "question": "Which word is used to add a comment in HTML?",
+      "type": "radio",
+      "options": [
+        "comment",
+        "slash",
+        "star",
+        "exclamation"
+      ],
+      "correct": [0]
+    },
+    {
+      "id": 16,
+      "question": "Which HTML element is used to specify a footer for a document or section?",
+      "type": "radio",
+      "options": [
+        "footer",
+        "bottom",
+        "section",
+        "div"
+      ],
+      "correct": [0]
+    },
+    {
+      "id": 17,
+      "question": "What does the 'meta' tag provide in HTML?",
+      "type": "radio",
+      "options": [
+        "Styles for the webpage",
+        "Additional information about the page",
+        "A link to other documents",
+        "JavaScript code"
+      ],
+      "correct": [1]
+    },
+    {
+      "id": 18,
+      "question": "Which word is used to embed a video in an HTML page?",
+      "type": "radio",
+      "options": [
+        "video",
+        "media",
+        "embed",
+        "play"
+      ],
+      "correct": [0]
+    },
+    {
+      "id": 19,
+      "question": "What does the 'id' attribute do in an HTML element?",
+      "type": "radio",
+      "options": [
+        "Specifies a unique identifier for an element",
+        "Changes the element's color",
+        "Defines a class for the element",
+        "Links to external resources"
+      ],
+      "correct": [0]
+    },
+    {
+      "id": 20,
+      "question": "Which word is used to define emphasized text?",
+      "type": "radio",
+      "options": [
+        "strong",
+        "b",
+        "i",
+        "em"
+      ],
+      "correct": [3]
+    }
+  ]
+}

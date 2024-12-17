@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="user-info">HTML Test</h1>
+    </header>
+    <main>
+        <section id="welcome-section">
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" placeholder="Name" required>
+            <label for="group">Enter your group:</label>
+            <input type="text" id="group" placeholder="Group" required>
+            <button id="start-test">Start Test</button>
+        </section>
+
+        <section id="level-section" style="display: none;">
+            <h2>Choose your level:</h2>
+            <button data-level="easy" class="level-btn">Easy</button>
+            <button data-level="middle" class="level-btn">Middle</button>
+            <button data-level="hard" class="level-btn">Hard</button>
+        </section>
+
+        <section id="test-section" style="display: none;">
+            <form id="test-form">
+                <div id="questions-container"></div>
+                <button type="submit">Submit Test</button>
+            </form>
+        </section>
+
+        <section id="results-section" style="display: none;">
+            <h2>Results</h2>
+            <p id="score"></p>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
