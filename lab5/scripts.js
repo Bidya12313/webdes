@@ -9,7 +9,7 @@ document.getElementById("start-test").addEventListener("click", () => {
   if (userName && userGroup) {
     document.getElementById(
       "user-info"
-    ).innerText = `${userName} (${userGroup}) - LESS/SCSS Test`;
+    ).innerText = `${userName} (${userGroup}) - HTML Test`;
     document.getElementById("welcome-section").style.display = "none";
     document.getElementById("level-section").style.display = "block";
   } else {
